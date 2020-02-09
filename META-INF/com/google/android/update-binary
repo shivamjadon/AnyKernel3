@@ -192,16 +192,16 @@ if [ $? != 0 -o -z "$(ls bin)" ]; then
 fi;
 
 ui_print "================================================";
-ui_print "          ____  ____  ____  _   _____           ";
-ui_print "         / __ \/ __ \/ __ \/ | / /   |          "; 
-ui_print "        / / / / /_/ / / / /  |/ / /| |          ";    
-ui_print "       / /_/ / _, _/ /_/ / /|  / ___ |          ";
-ui_print "      /_____/_/ |_|\____/_/ |_/_/  |_|          ";
+ui_print "    ____________________________   ________     ";
+ui_print "    ___  __ \__  __ \_  __ \__  | / /__    |    ";
+ui_print "    __  / / /_  /_/ /  / / /_   |/ /__  /| |    ";
+ui_print "    _  /_/ /_  _, _// /_/ /_  /|  / _  ___ |    ";
+ui_print "    /_____/ /_/ |_| \____/ /_/ |_/  /_/  |_|    ";
 ui_print "                                                ";
 ui_print "================================================";
-ui_print "$(file_getprop anykernel.sh kernel.string)";
-ui_print "================================================";
-ui_print "AnyKernel3 by osm0sis @ xda-developers";
+ui_print "Developer : Shivam Jadon";
+ui_print "Support   : Oreo/Pie/Q";
+ui_print "Variant   : Non-Overclocked";
 ui_print "================================================";
 
 $BOOTMODE || $bb mount -o bind /dev/urandom /dev/random;
